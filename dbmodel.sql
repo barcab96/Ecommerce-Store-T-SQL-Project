@@ -1,8 +1,12 @@
--- Create a database
+-- ==========================================================================
+-- CREATE A DATABASE
+-- ==========================================================================
 
 CREATE DATABASE EcommerceStore
 
--- Create schemas for database tables
+-- ==========================================================================
+-- CREATE SCHEMAS FOR DATABASE TABLES
+-- ==========================================================================
 
 CREATE SCHEMA prod;
 CREATE SCHEMA cust;
@@ -10,7 +14,9 @@ CREATE SCHEMA ord;
 CREATE SCHEMA stage;
 CREATE SCHEMA calc;
 
--- Create tables in the EcommerceStore database
+-- ==========================================================================
+-- CREATE TABLES IN THE ECOMMERCESTORE DATABASE
+-- ==========================================================================
 
 CREATE TABLE prod.products (
     product_id BIGINT PRIMARY KEY IDENTITY(1,1) NOT NULL,
